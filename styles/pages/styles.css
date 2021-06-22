@@ -1,3 +1,8 @@
+body {
+    width:90vw;
+    margin: 0 auto;
+}
+
 .menu ul  {
     background: red;
     display: flex;
@@ -43,5 +48,40 @@
     line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
+}
 
+.blog-text {
+    margin:15px;
+    background: #EDF7FA;
+    display: flex;
+
+}
+.blog-text article {
+    display: inline-block;
+    background: blue;
+    width:418px;
+    height:296px;
+    margin-top: 10px;;
+}
+
+.featured  {
+    display: flex;
+    background: green;
+    
+    height: 296px;
+}
+
+.featured div {
+    display: flex;
+    background: orange;
+    width:418px;
+    height:296px;
+    margin-top: 10px;
+}
+
+.rede__sociais  {
+     display:flex;
+     gap: 30px;
+      
+       
 }
