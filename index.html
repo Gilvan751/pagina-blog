@@ -8,6 +8,7 @@
     <title>Pagina Blog</title>
 </head>
 <body>
+    <div class="content">
     <nav class="menu">
         <ul>
             <li>Works</li>
@@ -18,37 +19,46 @@
     </nav>
 
     <header class="info-text">
-        <article>
+        <article class="contener1">
             <h1>Hi, I am Daniel Berg, a Front End Developer</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. VelAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud ameit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud ame</p>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt nostrud amet.Exercitation veniam consequat sunt nostrud amet</p>
             <button class="btn">Download Resume</button>
         </article>
-        <article>
+        <article class="contener2">
             <img src="/assents/imagens/foto.png" alt="foto mesa de trabalho">
         </article>
     </header>
 
     <section class="blog-text">
-          <h3>Blog posts</h3> 
-          <article >
-            <h2>How to use CSS Grid and Flexbox</h2>
-            <button><h2>12 Feb 2020  |  CSS, front End</h2></button>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <h3>Blog posts</h3>
+        <div class="contener">
+           <article >
+            <h2>How to use CSS Grid and <br>Flexbox</h2>
+            <h3>12 Feb 2020  |  CSS, front End</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
         </article>
-        <article >
-            <h2>I’m launching Maratonas Academy</h2>
-            <button><h2>12 Feb 2020  |  Startup, EdTech</h2></button>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <article>
+            <h2>I’m launching Maratonas<br> Academy</h2>
+            <h3>12 Feb 2020  |  Startup, EdTech</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
         </article>     
-        
+    </div>
     </section>
-    <section class="featured">
-        <h2>Featured works</h2>
+    <div class="featured">
+        <h3>Featured works</h3>
 
-           <div><img src="/assents/imagens/imgmaratona.png" alt="foto da maratonas"></div>
-           <div><h2>Hub Maratonas Academy</h2>
-            <span><button>2021</button> Web App</span>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p></div>
+        <div class="featured__text">
+          <img src="/assents/imagens/imgmaratona.png" alt="foto da maratonas"  style="margin-left: 149px;">
+           
+                <ul>
+                    <li><h2>Hub Maratonas Academy</h2></li>
+                    <li><a href="#" class="buttonClass">2021</a> Web App</li> 
+                    <li><p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p></li>
+                </ul>
+                   
+            
+            
+        </div>
         
     </section>
     <footer class="rede__sociais">
@@ -59,6 +69,14 @@
         <img src="/assents/icons/Linkedin1.png" alt="" class="sec__footer-img"> 
             
     </footer>
-    <p>Copyright ©2020 All rights reserved </p>
+    <p class="company">Copyright ©2020 All rights reserved </p>
+
+</div>
+
+<div class="max-resolution">
+    <p class="max-resolution__text">Opa, sua resolução está muito grande!</p><br>
+    <p class="max-resolution__text max-resolution__text--tablet">Parece que você está usando um <strong>TABLET</strong>, tente acessar no celular</p> 
+    <p class="max-resolution__text max-resolution__text--notebook ">Parece que você está usando um <strong>NOTEBOOK</strong>, tente acessar no celular</p>
+</div>
 </body>
 </html>
